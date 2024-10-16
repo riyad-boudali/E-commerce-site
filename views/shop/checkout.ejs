@@ -20,7 +20,7 @@
                     <button id="order-btn" class="btn">Order</button>
                     <script src="https://js.stripe.com/v3/"></script>
                     <script>
-                        const stripe = Stripe("pk_test_51Q9xKJ00SgonZQQipq94g6RfcwSn1kfMcWkYO11YfswM98gpQh10adC3MJxnLc97RoyUsRrWG2odiyjj38DNUgql00V6bJJIgy");
+                        const stripe = Stripe("<%= stripePublicKey %>");
                         let orderBtn =document.getElementById('order-btn')
                     </script>
                 </div>
